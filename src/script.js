@@ -4,7 +4,7 @@ const audio = new Audio('/public/audio/we_are_safemoon.mp3');
 
 function startTimer() {
   launchBtn.style.display = 'none';
-  let seconds = 1;
+  let seconds = 10;
   audio.play();
   
   const timerInterval = setInterval(function () {
