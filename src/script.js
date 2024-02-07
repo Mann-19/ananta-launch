@@ -1,6 +1,6 @@
 const launchBtn = document.getElementById('launch-btn');
 const rocket = document.getElementById('rocket');
-const audio = new Audio('./public/audio/we_are_safemoon.mp3');
+const audio = new Audio('/public/audio/we_are_safemoon.mp3');
 
 function startTimer() {
   launchBtn.style.display = 'none';
